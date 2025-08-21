@@ -67,9 +67,12 @@ public class LargestOfThree {
             }
         }
 
-        // output the largest
-        System.out.println("\n the largest num is: " + largest);
+        // output meaningful information to the user
+        System.out.println("\n You entered " + num1 + " for the value of num1.\n");
+        System.out.println("\n You entered " + num2 + " for the value of num2.\n");
+        System.out.println("\n You entered " + num3 + " for the value of num3.\n");
 
+        System.out.println("\n The largest number is " + largest);
     }
 
 }
